@@ -1,0 +1,19 @@
+// import Boostrap cutomisations 
+@use 'custom';
+
+// import components
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixin';
+@use 'components/typography';
+
+// import sections
+@use 'sections/companies';
+@use 'sections/faq';
+@use 'sections/footer';
+@use 'sections/get-started';
+@use 'sections/intro-section';
+@use 'sections/navbar';
+@use 'sections/portforlio';
+@use 'sections/services';
+@use 'sections/testimonials';
