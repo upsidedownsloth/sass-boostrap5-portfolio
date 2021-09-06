@@ -5,6 +5,8 @@
 .footer {
     padding-top: 1rem;
     background-color: $footer;
+
+
 }
 
 // CONTACT-BOX
@@ -49,5 +51,22 @@
         }
 
     }
+}
 
+// SOCIAL MEDIA
+.footer-sm{
+    background-color: #212121;
+
+    a{
+        color: $white;
+
+        i{
+            font-size: 1rem;
+            margin-left: 1rem;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 1.5rem;
+            }
+        }
+    }
 }
