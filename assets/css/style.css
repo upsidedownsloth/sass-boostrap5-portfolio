@@ -11246,6 +11246,49 @@ textarea.form-control-lg {
   filter: grayscale(120);
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-box_icon {
+  width: 2rem;
+  stroke: #9926f0;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box_icon {
+    width: 3rem;
+  }
+}
+.contact-box_info {
+  padding: 0.3rem;
+  font-weight: 600;
+}
+.contact-box_info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box_info--title {
+    font-size: 1.2rem;
+  }
+}
+.contact-box_info--subtitle {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-decoration: none;
+}
+@media (min-width: 576px) {
+  .contact-box_info--subtitle {
+    font-size: 1rem;
+  }
+}
+
 .get-started {
   padding: 4rem 0;
   background-color: #e9ecef;
