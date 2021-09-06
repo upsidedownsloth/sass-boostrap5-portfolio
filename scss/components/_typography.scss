@@ -64,7 +64,7 @@
         -webkit-text-fill-color: transparent;
 
         @include media-breakpoint-up(lg){
-            margin-top: 1.8rem; 
+           font-size: 1.8rem; 
         }
     }
 }
@@ -73,4 +73,9 @@
 .border-right{
     border-right: 0.1rem solid $gray-300;
     height: 100%;
+}
+
+// GRADIENT CONTENT
+.gradient{
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
