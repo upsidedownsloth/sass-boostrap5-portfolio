@@ -11305,6 +11305,44 @@ textarea.form-control-lg {
   }
 }
 
+.footer-hr {
+  width: 60px;
+  height: 2px;
+}
+
+.footer-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.footer-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.footer-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-list li a:hover {
+  color: #9926f0;
+}
+
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom_copyright {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom_copyright a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+.footer-bottom_copyright a:hover {
+  color: #9926f0;
+  text-decoration: underline;
+}
+
 .get-started {
   padding: 4rem 0;
   background-color: #e9ecef;

@@ -5,8 +5,6 @@
 .footer {
     padding-top: 1rem;
     background-color: $footer;
-
-
 }
 
 // CONTACT-BOX
@@ -66,6 +64,52 @@
 
             @include media-breakpoint-up(sm) {
                 font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+//COMPANY INFO CONTENT
+.footer-hr{
+    width: 60px;
+    height: 2px;
+}
+
+.footer-list{
+    display: block;
+    list-style-type: none;
+    position: relative;
+
+    li{
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+
+        a{
+            color: $white;
+            text-decoration: none;
+
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+}
+
+// COPYRIGHT FOOTER CONTENT
+.footer-bottom{
+    background-color: $black;
+
+    &_copyright{
+        color: $gray-600;
+        font-weight: 400;
+
+        a {
+            color: $gray-500;
+            text-decoration: none;
+
+            &:hover{
+                color: $primary;
+                text-decoration: underline;
             }
         }
     }
