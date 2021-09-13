@@ -7,9 +7,6 @@ https://www.youtube.com/watch?v=iJKCj8uAHz8&list=PLBoFwdN-Zgdd38CE_wY6tqr1tuZZXP
 3. Font Awesome @ https://fontawesome.com/
 4. Autoprefixer @ https://www.npmjs.com/package/autoprefixer
 
-### Topic learned...
-- Create package.json
-- Imported and setup packages
-- Watch Sass using Bash terminal
-- Customising Boostrap styling
+### web demo
+https://upsidedownsloth.github.io/sass-boostrap5-portfolio/
 
