@@ -47,6 +47,7 @@ https://www.youtube.com/watch?v=iJKCj8uAHz8&list=PLBoFwdN-Zgdd38CE_wY6tqr1tuZZXP
 - To test your script, inside the ``scss`` folder, create a sass file called ``style.scss``.
 - In the terminal, ``npm run compile:sass``
 - ``assets/css`` folders will be created, which will include the test ``style.scss`` file and a source map ``style.css.map``
+- Note that HTML should set to <link rel="stylesheet" href="./assets/css/style.css"> or something similar.
 - more about <a href="https://youtu.be/iJKCj8uAHz8?list=PLBoFwdN-Zgdd38CE_wY6tqr1tuZZXPeSW&t=945">source map</a>
 - Modify the script so that npm will keep watching for any changes in the Sass file and compile it in real time
 <br> In the package.json file change <br> ``"compile:sass": "sass scss:assets/css" `` to <br> ``"compile:sass": "sass --watch scss:assets/css" ``
