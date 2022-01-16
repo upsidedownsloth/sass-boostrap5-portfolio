@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=iJKCj8uAHz8&list=PLBoFwdN-Zgdd38CE_wY6tqr1tuZZXP
 - look for 'sass'
 - Go to 'Usage'
     - This project will use npm command as we have initilised npm
-    ```npm --save-dev-sass```
+    ```npm install --save-dev sass```
     - Once installed, a folder named 'node_modules' will be created in the project folder. This is where the project will keep all sass file.
 
 #### 3. Get Bootstrap
